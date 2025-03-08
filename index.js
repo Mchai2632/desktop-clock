@@ -4,7 +4,7 @@ const dateElement = document.getElementById("date");
 
 function getTimeAndDate() {
     const time = dayjs().format("HH:mm:ss");
-    const date = dayjs().format("YYYY-MM-DD");
+    const date = dayjs().format("dddd, D MMMM YYYY");
     const timeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
     return [time, date, timeZone];
 }
