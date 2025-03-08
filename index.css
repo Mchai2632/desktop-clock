@@ -49,7 +49,7 @@ body {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .clock {
         font-size: 1.5rem;
     }
@@ -58,4 +58,3 @@ body {
         font-size: 3rem;
     }
 }
-
