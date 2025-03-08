@@ -51,6 +51,11 @@ body {
     #time {
         font-size: 5rem;
     }
+
+    #copyright {
+        position: relative;
+        bottom: 0px;
+    }
 }
 
 @media screen and (max-width: 900px) {
