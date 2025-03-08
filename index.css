@@ -53,7 +53,7 @@ body {
     }
 
     #copyright {
-        position: relative;
+        position: static;
         bottom: 0px;
     }
 }
